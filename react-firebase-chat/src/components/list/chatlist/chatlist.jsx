@@ -21,8 +21,29 @@ const Chatlist = () => {
         <p>Salam</p>
        </div>
       </div>
+      <div className="item">
+       <img src="./avatar.png" alt="" />
+       <div className="text">
+        <span>Shahjahan</span>
+        <p>Salam</p>
+       </div>
+      </div>
+      <div className="item">
+       <img src="./avatar.png" alt="" />
+       <div className="text">
+        <span>Shahjahan</span>
+        <p>Salam</p>
+       </div>
+      </div>
+      <div className="item">
+       <img src="./avatar.png" alt="" />
+       <div className="text">
+        <span>Shahjahan</span>
+        <p>Salam</p>
+       </div>
+      </div>
     </div>
-  )
-}
+  );
+};
 
 export default Chatlist

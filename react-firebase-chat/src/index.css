@@ -7,7 +7,7 @@
 }
 
 body{
-  background-image: url("https://w.wallhaven.cc/full/47/wallhaven-47v5je.jpg");
+  background-image: url("/bg.jpg");
   display: flex;
   align-items: center;
   justify-content: center;

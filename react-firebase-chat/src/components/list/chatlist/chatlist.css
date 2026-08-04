@@ -1,5 +1,5 @@
 .chatlist{
-    .search{
+    .Search{
         display: flex;
         align-items: center;
         gap: 20px;
@@ -7,6 +7,7 @@
 
     .searchbar{
         flex: 1;
+
     }    
-    }
+ }    
 }

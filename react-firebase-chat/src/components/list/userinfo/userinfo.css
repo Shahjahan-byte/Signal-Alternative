@@ -1,6 +1,21 @@
-.userinfo{
-   padding: 20px;
-   display: flex;
-   align-items: center;
-   justify-content: space-between;
+/* Targets the container holding the 3 icons */
+.icon {
+  display: flex;
+  align-items: center;
+  gap: 20px; /* Adjust spacing between icons here */
+}
+
+/* Ensure the icons are sized correctly */
+.icon img {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+/* Make sure the parent container spaces the user profile and the icons properly */
+.userinfo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Pushes user to the left, icons to the right */
+  padding: 20px;
 }

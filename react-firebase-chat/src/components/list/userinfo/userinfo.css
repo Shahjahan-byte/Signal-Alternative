@@ -1,21 +1,36 @@
-/* Targets the container holding the 3 icons */
+.userinfo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.user img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.user h2 {
+  font-size: 18px;
+  margin: 0;
+}
+
 .icon {
   display: flex;
   align-items: center;
-  gap: 20px; /* Adjust spacing between icons here */
+  gap: 20px;
 }
 
-/* Ensure the icons are sized correctly */
 .icon img {
   width: 20px;
   height: 20px;
   cursor: pointer;
-}
-
-/* Make sure the parent container spaces the user profile and the icons properly */
-.userinfo {
-  display: flex;
-  align-items: center;
-  justify-content: space-between; /* Pushes user to the left, icons to the right */
-  padding: 20px;
 }

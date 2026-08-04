@@ -8,7 +8,7 @@ const Chatlist = () => {
           <img src="./search.png" alt="" />
           <input type="text" placeholder="Search" />
         </div>
-        <img src="./plus.png" alt="" />
+        <img src="./plus.png" alt="" className="add" />
       </div>
     </div>
   )

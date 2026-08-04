@@ -14,6 +14,13 @@ const Chatlist = () => {
          onClick={()=>setAddMode((prev) => !prev)}
         />
       </div>
+      <div className="item">
+       <img src="./avatar.png" alt="" />
+       <div className="text">
+        <span>Shahjahan</span>
+        <p>Salam</p>
+       </div>
+      </div>
     </div>
   )
 }

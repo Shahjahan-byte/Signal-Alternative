@@ -1,6 +1,7 @@
 .chatlist{
     flex: 1;
-    overflow: scroll;
+    overflow-y: scroll;
+    overflow-x: hidden;
     .Search{
         align-items: center;
         gap: 20px;

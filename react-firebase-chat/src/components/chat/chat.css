@@ -83,6 +83,16 @@
             font-size: 16px;
          }
 
+         .emoji{
+            position: relative;
+
+            .picker{
+                position: absolute;
+                bottom: 50px;
+                right: 0;
+            }
+         }
+
          .sendButton{
             background-color: #5183fe;
             color: white;

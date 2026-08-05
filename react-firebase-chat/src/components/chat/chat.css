@@ -76,7 +76,7 @@
             border: none;
             outline:none;
             color:white;
-            background-color: transparent;
+            background-color: rgba(17 ,25, 40, 0.5);
          }
 
     }

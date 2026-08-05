@@ -59,6 +59,7 @@
          align-items: center;
          justify-content: space-between;
          border-top: 1px solid #dddddd35;
+         gap: 20px;
 
          .icons{
             display: flex;
@@ -77,6 +78,9 @@
             outline:none;
             color:white;
             background-color: rgba(17 ,25, 40, 0.5);
+            padding: 20px;
+            border-radius: 10px;
+            font-size: 16px;
          }
 
     }

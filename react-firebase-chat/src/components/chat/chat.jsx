@@ -27,7 +27,77 @@ const Chat = () => {
                     <img src="./info.png" alt="" />
                 </div>
             </div>
-            <div className="center"></div>
+            <div className="center">
+                <div className="message own"> 
+                    <div className="texts">
+                        <p>
+                            I never dreamed about success. I worked for it.
+                            This is called Power.
+                        </p>
+                        <span>1 min ago</span>
+                    </div>
+                </div>
+                <div className="message own">
+                    <img src="./avatar.png" alt="" />
+                    <div className="texts">
+                        <p>
+                            I never dreamed about success. I worked for it.
+                            This is called Power.
+                        </p>
+                        <span>1 min ago</span>
+                    </div>
+                </div>
+                <div className="message">
+                    <img src="./avatar.png" alt="" />
+                    <div className="texts">
+                        <p>
+                            I never dreamed about success. I worked for it.
+                            This is called Power.
+                        </p>
+                        <span>1 min ago</span>
+                    </div>
+                </div>
+                <div className="message">
+                    <img src="./avatar.png" alt="" />
+                    <div className="texts">
+                        <p>
+                            I never dreamed about success. I worked for it.
+                            This is called Power.
+                        </p>
+                        <span>1 min ago</span>
+                    </div>
+                </div>
+                <div className="message">
+                    <img src="./avatar.png" alt="" />
+                    <div className="texts">
+                        <p>
+                            I never dreamed about success. I worked for it.
+                            This is called Power.
+                        </p>
+                        <span>1 min ago</span>
+                    </div>
+                </div>
+                <div className="message">
+                    <img src="./avatar.png" alt="" />
+                    <div className="texts">
+                        <p>
+                            I never dreamed about success. I worked for it.
+                            This is called Power.
+                        </p>
+                        <span>1 min ago</span>
+                    </div>
+                </div>
+                <div className="message own">
+                    <img src="./avatar.png" alt="" />
+                    <div className="texts">
+                        <p>
+                            I never dreamed about success. I worked for it.
+                            This is called Power.
+                        </p>
+                        <span>1 min ago</span>
+                    </div>
+                </div>
+            </div>
             <div className="bottom">
                 <div className="icons">
                     <img src="./img.png" alt="" />

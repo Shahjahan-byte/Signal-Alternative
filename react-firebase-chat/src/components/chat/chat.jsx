@@ -28,7 +28,7 @@ const Chat = () => {
                 <div className="emoji">
                     <img src="./emoji.png" alt="" />
                 </div>
-                <button classname="sendButton">Send</button>
+                <button className="sendButton">Send</button>
             </div>
         </div>
     )

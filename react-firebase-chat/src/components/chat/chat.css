@@ -64,13 +64,13 @@
          .icons{
             display: flex;
             gap: 20px;
-
+         }
             img{
                 width: 20px;
                 height: 20px;
                 cursor: pointer;
             }
-         }
+         
 
          input{
             flex: 1;

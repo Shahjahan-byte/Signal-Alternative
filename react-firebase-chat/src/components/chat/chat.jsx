@@ -19,7 +19,11 @@ const Chat = () => {
             </div>
             <div className="center"></div>
             <div className="bottom">
-                <div className="icons"></div>
+                <div className="icons">
+                    <img src="./img.png" alt="" />
+                    <img src="./camera.png" alt="" />
+                    <img src="./mic.png" alt="" />
+                </div>
                 <input type="text" placeholder="Type a message..." />
                 <div className="emoji">
                     <img src="./emoji.png" alt="" />

@@ -67,7 +67,10 @@
          display: flex;
          gap: 20px;
 
-         
+       &.own{
+         align-items: flex-end;
+         }
+       }  
       }
     }
 

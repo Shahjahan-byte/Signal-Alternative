@@ -69,8 +69,29 @@
       
       &.own{
          align-self: flex-end;
+
+         .texts{
+            p{
+               background-color: #5183fe;
+            }
+         }
       }
-   }
+
+      img{
+         width: 30px;
+         height: 30px;
+         border-radius: 50%;
+         object-fit: cover;
+      }
+      .texts{
+         flex:1;
+         display: flex;
+         flex-direction: column;
+         gap: 5px;
+
+
+      }
+     }
    }
     
 

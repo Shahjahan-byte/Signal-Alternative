@@ -5,9 +5,10 @@
     height: 100%;
     display: flex;
     flex-direction: column;
-
+    
     .top{
        padding: 20px;
+       /* flex-direction: column; */
        display: flex;
        align-items:center;
        justify-content: space-between;
@@ -24,9 +25,23 @@
             border-radius: 50%;
             object-fit: cover;
          }
+         .texts{
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
 
-         }
+            span{
+               font-size: 18px;
+               font-weight: bold;
+            }
+
+            p{
+               font-size: 14px;
+               font-weight: 300;
+               color: #a5a5a5;
+            }
        }
+      }
 
        .icons{
         display: flex;
@@ -38,7 +53,7 @@
         }
        }
     }
-
+  
     .center{
       padding: 20px;
       flex: 1;
@@ -55,7 +70,7 @@
        &.own{
          align-items: flex-end;
          }
-       }  
+      }  
       }
     
 
@@ -111,3 +126,4 @@
          }
 
     }
+}

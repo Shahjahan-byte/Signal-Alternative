@@ -28,7 +28,8 @@ const Chat = () => {
                 </div>
             </div>
             <div className="center">
-                <div className="message own"> 
+                <div className="message">
+                    <img src="./avatar.png" alt="" />
                     <div className="texts">
                         <p>
                             I never dreamed about success. I worked for it.
@@ -38,37 +39,6 @@ const Chat = () => {
                     </div>
                 </div>
                 <div className="message own">
-                    <img src="./avatar.png" alt="" />
-                    <div className="texts">
-                        <p>
-                            I never dreamed about success. I worked for it.
-                            This is called Power.
-                        </p>
-                        <span>1 min ago</span>
-                    </div>
-                </div>
-                <div className="message">
-                    <img src="./avatar.png" alt="" />
-                    <div className="texts">
-                        <p>
-                            I never dreamed about success. I worked for it.
-                            This is called Power.
-                        </p>
-                        <span>1 min ago</span>
-                    </div>
-                </div>
-                <div className="message">
-                    <img src="./avatar.png" alt="" />
-                    <div className="texts">
-                        <p>
-                            I never dreamed about success. I worked for it.
-                            This is called Power.
-                        </p>
-                        <span>1 min ago</span>
-                    </div>
-                </div>
-                <div className="message">
-                    <img src="./avatar.png" alt="" />
                     <div className="texts">
                         <p>
                             I never dreamed about success. I worked for it.
@@ -88,6 +58,34 @@ const Chat = () => {
                     </div>
                 </div>
                 <div className="message own">
+                    <div className="texts">
+                        <p>
+                            I never dreamed about success. I worked for it.
+                            This is called Power.
+                        </p>
+                        <span>1 min ago</span>
+                    </div>
+                </div>
+                <div className="message">
+                    <img src="./avatar.png" alt="" />
+                    <div className="texts">
+                        <p>
+                            I never dreamed about success. I worked for it.
+                            This is called Power.
+                        </p>
+                        <span>1 min ago</span>
+                    </div>
+                </div>
+                <div className="message own">
+                    <div className="texts">
+                        <p>
+                            I never dreamed about success. I worked for it.
+                            This is called Power.
+                        </p>
+                        <span>1 min ago</span>
+                    </div>
+                </div>
+                <div className="message">
                     <img src="./avatar.png" alt="" />
                     <div className="texts">
                         <p>

@@ -78,6 +78,7 @@ const Chat = () => {
                 </div>
                 <div className="message own">
                     <div className="texts">
+                        <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%2Fid%2FOIP.b_pJq1Wzg9FWZ_AhpVgLjAHaHa%3Fr%3D0%26pid%3DApi&f=1&ipt=b4a5da9a40077c8c6d671937565cd674e12f56acb766eb788dd9fc37a3f5a577&ipo=images" alt="" />
                         <p>
                             I never dreamed about success. I worked for it.
                             This is called Power.

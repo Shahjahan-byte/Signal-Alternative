@@ -66,12 +66,12 @@
          max-width: 70%;
          display: flex;
          gap: 20px;
-
-       &.own{
-         align-items: flex-end;
-         }
-      }  
+      
+      &.own{
+         align-self: flex-end;
       }
+   }
+   }
     
 
     .bottom{

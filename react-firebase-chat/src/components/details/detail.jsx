@@ -33,9 +33,59 @@ const Detail = () => {
                 src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%2Fid%2FOIP.-W9gfsK2eZGoZs4I5c0trgHaD0%3Fr%3D0%26pid%3DApi&f=1&ipt=db2458a4b61f2e7d24b6f156cc2cb31619d8cee0f93ac7101a38c14c77e4c693&ipo=images"
                 alt=""
                 />
+                </div>
               <span>photo_2026_2.png</span>
-              </div>
-              <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%2Fid%2FOIP.YQOk_z5zu9r1pPj5rBzq7QHaHa%3Fpid%3DApi&f=1&ipt=4db808904ccb84e59140fb916f17431845eb86f42427e32455bd98460597f9b8&ipo=images" alt="" />
+              <img src="./download.png" alt="" />
+            </div>
+            <div className="photoItem">
+              <div className="photoDetail">
+                <img
+                src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%2Fid%2FOIP.-W9gfsK2eZGoZs4I5c0trgHaD0%3Fr%3D0%26pid%3DApi&f=1&ipt=db2458a4b61f2e7d24b6f156cc2cb31619d8cee0f93ac7101a38c14c77e4c693&ipo=images"
+                alt=""
+                />
+                </div>
+              <span>photo_2026_2.png</span>
+              <img src="./download.png" alt="" />
+            </div>
+            <div className="photoItem">
+              <div className="photoDetail">
+                <img
+                src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%2Fid%2FOIP.-W9gfsK2eZGoZs4I5c0trgHaD0%3Fr%3D0%26pid%3DApi&f=1&ipt=db2458a4b61f2e7d24b6f156cc2cb31619d8cee0f93ac7101a38c14c77e4c693&ipo=images"
+                alt=""
+                />
+                </div>
+              <span>photo_2026_2.png</span>
+              <img src="./download.png" alt="" />
+            </div>
+            <div className="photoItem">
+              <div className="photoDetail">
+                <img
+                src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%2Fid%2FOIP.-W9gfsK2eZGoZs4I5c0trgHaD0%3Fr%3D0%26pid%3DApi&f=1&ipt=db2458a4b61f2e7d24b6f156cc2cb31619d8cee0f93ac7101a38c14c77e4c693&ipo=images"
+                alt=""
+                />
+                </div>
+              <span>photo_2026_2.png</span>
+              <img src="./download.png" alt="" />
+            </div>
+            <div className="photoItem">
+              <div className="photoDetail">
+                <img
+                src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%2Fid%2FOIP.-W9gfsK2eZGoZs4I5c0trgHaD0%3Fr%3D0%26pid%3DApi&f=1&ipt=db2458a4b61f2e7d24b6f156cc2cb31619d8cee0f93ac7101a38c14c77e4c693&ipo=images"
+                alt=""
+                />
+                </div>
+              <span>photo_2026_2.png</span>
+              <img src="./download.png" alt="" />
+            </div>
+            <div className="photoItem">
+              <div className="photoDetail">
+                <img
+                src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%2Fid%2FOIP.-W9gfsK2eZGoZs4I5c0trgHaD0%3Fr%3D0%26pid%3DApi&f=1&ipt=db2458a4b61f2e7d24b6f156cc2cb31619d8cee0f93ac7101a38c14c77e4c693&ipo=images"
+                alt=""
+                />
+                </div>
+              <span>photo_2026_2.png</span>
+              <img src="./download.png" alt="" />
             </div>
           </div>
         </div>

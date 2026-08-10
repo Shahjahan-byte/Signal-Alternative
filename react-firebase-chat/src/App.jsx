@@ -1,6 +1,7 @@
 import List from './components/list/list'
 import Chat from './components/chat/chat'
 import Detail from './components/details/detail'
+import Login from './components/login/Login';
 
 
 const App = () => {
@@ -16,7 +17,7 @@ const App = () => {
           <Detail/>
        </>   
       ) : (
-        <Login/>
+        <Login />
       )}
     </div>
   );

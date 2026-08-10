@@ -1,7 +1,7 @@
-.detail{
+.detail {
     flex: 1;
 
-    .user{
+    .user {
         padding: 30px 20px;
         display: flex;
         flex-direction: column;
@@ -9,7 +9,25 @@
         gap: 20px;
         border-bottom: 1px solid #dddddd35;
 
-        img{
+        .avatarPlaceholder{
+            width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        background-color: rgba(17, 25, 40, 0.3); /* WhatsApp signature teal color */
+        color: white;
+        
+        /* Flexbox is the trick to perfectly center the letter */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        /* Typography */
+        font-size: 45px;
+        font-weight: 500;
+        text-transform: uppercase; /* Ensures the letter is always capitalized */
+        }
+
+        img {
             width: 100px;
             height: 100px;
             border-radius: 50%;
@@ -17,20 +35,23 @@
         }
     }
 
-    .info{
+    .info {
         padding: 20px;
         display: flex;
         flex-direction: column;
-        gap: 30px;
+        gap: 15px; /* Spacing between each .option item */
 
-        .option{
+        .option {
+            display: flex;
+            flex-direction: column;
+            gap: 15px; /* Spacing between .title and .photos list inside an option */
 
-            .title{
+            .title {
                 display: flex;
                 align-items: center;
                 justify-content: space-between;
 
-                img{
+                img {
                     width: 30px;
                     height: 30px;
                     background-color: rgba(17, 25, 40, 0.3);
@@ -40,38 +61,61 @@
                 }
             }
 
-            .photos{
+            .photos {
                 display: flex;
                 flex-direction: column;
                 gap: 20px;
+                margin-top: 10px; /*Extra breathing room above photo items*/
 
-                .photoItem{
+                .photoItem {
                     display: flex;
                     align-items: center;
                     justify-content: space-between;
 
-
-                    .photoDetail{
+                    .photoDetail {
                         display: flex;
                         align-items: center;
                         gap: 20px;
 
-                        img{
+                        img {
                             width: 40px;
                             height: 40px;
                             border-radius: 5px;
                             object-fit: cover;
                         }
 
-                        span{
+                        span {
                             font-size: 14px;
                             color: lightgray;
                             font-weight: 300;
-                            
                         }
+                    }
+                    .icon{
+                        width: 30px;
+                        height: 40px;
+                        background-color: rgba(17, 25, 40, 0.3);
+                        padding: 10px;
+                        border-radius: 30%;
+                        cursor: pointer;
                     }
                 }
             }
         }
-    }
+
+        button {
+            margin-top: 10px; /* Gives space above the Block User button */
+            padding: 10px 20px;
+            cursor: pointer;
+            font-weight: 900;
+            border-radius: 20px;
+
+            &:hover{
+                background-color: wheat;
+                transform: scale(1.08);
+            }
+            &.logout{
+                padding: 10px;
+            }
+        }
+    } 
 }

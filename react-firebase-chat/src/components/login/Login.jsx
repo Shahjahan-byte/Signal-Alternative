@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "./login.css";
+import { toast } from "react-toastify"; // 1. Import toast
 
 const Login = () => {
     const [avatar, setAvatar] = useState({
@@ -18,6 +19,7 @@ const Login = () => {
 
     const handleLogin = (e) => {
         e.preventDefault();
+        toast.success("Hello"); // 2. Trigger the notification banner
     };
 
     return (

@@ -8,11 +8,13 @@ const Login = () => {
     })
 
     const handleAvatar = e =>{
-        setAvatar({
-            file:e.target.files[0],
-            url:URL.certainObjextURL(e.target.files[0])
-
-        })
+        if(e.target.files[0]){
+            setAvatar({
+                file:e.target.files[0],
+                url:URL.certainObjextURL(e.target.files[0])
+                
+            })
+        }
     }
 
   return (

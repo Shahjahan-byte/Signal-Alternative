@@ -1,7 +1,7 @@
-import "./addUser.css"
+import "./addUser.css";
 
 const AddUser = () => {
-    return(
+    return (
         <div className='addUser'>
             <form>
                 <input type="text" placeholder="Username" name="username" />
@@ -15,7 +15,7 @@ const AddUser = () => {
                 <button>Add User</button>
             </div>
         </div>
-    )
-}
+    );
+};
 
-export default AddUser
+export default AddUser;

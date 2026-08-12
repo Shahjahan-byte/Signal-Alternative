@@ -1,32 +1,32 @@
 import { useState } from "react";
 import "./login.css";
+import { toast } from "react-toastify"; // 1. Import toast
 
 const Login = () => {
-    const [avatar,setAvatar] = useState({
-        file:null,
-        url:""
-    })
+    const [avatar, setAvatar] = useState({
+        file: null,
+        url: ""
+    });
 
-    const handleAvatar = e =>{
-        if(e.target.files[0]){
+    const handleAvatar = (e) => {
+        if (e.target.files[0]) {
             setAvatar({
-                file:e.target.files[0],
-                url:URL.createObjectURL(e.target.files[0])
-                
-            })
+                file: e.target.files[0],
+                url: URL.createObjectURL(e.target.files[0])
+            });
         }
-    }
+    };
 
-    const handleLogin = e =>{
-        e.preventDefault()
-        toast.warn("Hello")
-    }
+    const handleLogin = (e) => {
+        e.preventDefault();
+        toast.success("Hello"); // 2. Trigger the notification banner
+    };
 
   return (
     <div className='login'>
         <div className="item">
             <h2>Welcome Back,</h2>
-            <form onSubmit={handleLogin}>
+            <form>
                 <input type="text" placeholder="Email" name="email" />
                 <input type="password" placeholder="password" name="password" />
                 <button>Sign In</button>
@@ -50,4 +50,4 @@ const Login = () => {
   )
 }
 
-export default Login
+export default Login;
